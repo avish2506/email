@@ -295,7 +295,7 @@ class EmailTemplateService {
         return this.http.get(EmailTemplateServiceConfig.EndPoint.EmailTemp.GetEmailTemplateList + id);
     }
     UpdateDeleteTemplate(id, modal) {
-        return this.http.patch(EmailTemplateServiceConfig.EndPoint.EmailTemp.UpdateDeleteTemplate + id, modal);
+        return this.http.patch('/solution/emailtemplate/template' + id, modal);
     }
     checkDuplicateForUpdate(tempname, id) {
         return this.http.get(EmailTemplateServiceConfig.EndPoint.EmailTemp.CheckDuplicateForUpdate1 +

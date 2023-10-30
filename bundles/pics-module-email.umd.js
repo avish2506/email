@@ -758,7 +758,7 @@
             return this.http.get(EmailTemplateServiceConfig.EndPoint.EmailTemp.GetEmailTemplateList + id);
         };
         EmailTemplateService.prototype.UpdateDeleteTemplate = function (id, modal) {
-            return this.http.patch(EmailTemplateServiceConfig.EndPoint.EmailTemp.UpdateDeleteTemplate + id, modal);
+            return this.http.patch('/solution/emailtemplate/template' + id, modal);
         };
         EmailTemplateService.prototype.checkDuplicateForUpdate = function (tempname, id) {
             return this.http.get(EmailTemplateServiceConfig.EndPoint.EmailTemp.CheckDuplicateForUpdate1 +
