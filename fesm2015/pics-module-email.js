@@ -78,7 +78,7 @@ EmailTemplateServiceConfig.EndPoint = {
         GetAllEmailTemplateCategories: '/solution/emailtemplate/template/getAllEmailTemplateCategories',
         GetEmailTemplateList: '/solution/emailtemplate/template/category/',
         CreateTemplate: '/solution/emailtemplate/template/create',
-        UpdateDeleteTemplate: '/solution/emailtemplate/template',
+        UpdateDeleteTemplate: '/solution/emailtemplate/template/',
         CheckDuplicateForUpdate1: '/solution/emailtemplate/template/',
         CheckDuplicateForUpdate2: '/checkDuplicateForUpdate',
         checkDuplicateCreate: '/checkDuplicate',
@@ -295,7 +295,7 @@ class EmailTemplateService {
         return this.http.get(EmailTemplateServiceConfig.EndPoint.EmailTemp.GetEmailTemplateList + id);
     }
     UpdateDeleteTemplate(id, modal) {
-        return this.http.patch('/solution/emailtemplate/template' + id, modal);
+        return this.http.patch(EmailTemplateServiceConfig.EndPoint.EmailTemp.UpdateDeleteTemplate + id, modal);
     }
     checkDuplicateForUpdate(tempname, id) {
         return this.http.get(EmailTemplateServiceConfig.EndPoint.EmailTemp.CheckDuplicateForUpdate1 +
