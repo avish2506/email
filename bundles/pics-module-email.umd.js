@@ -58,7 +58,7 @@
     EmailTemplateServiceConfig.EndPoint = {
         EmailTemp: {
             getList: '/intakedastagings/listtemplates',
-            GetAllEmailTemplateCategories: '/solution/emailtemplate/template/getAllEmailTemplateCategories',
+            GetAllEmailTemplateCategories: '/solution/emailtemplate/getAllEmailTemplateCategories',
             GetEmailTemplateList: '/solution/emailtemplate/template/category/',
             CreateTemplate: '/solution/emailtemplate/template/create',
             UpdateDeleteTemplate: '/solution/emailtemplate/template/',
