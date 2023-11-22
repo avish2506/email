@@ -76,13 +76,13 @@ EmailTemplateServiceConfig.EndPoint = {
     EmailTemp: {
         getList: '/intakedastagings/listtemplates',
         GetAllEmailTemplateCategories: '/solution/emailtemplate/getAllEmailTemplateCategories',
-        GetEmailTemplateList: '/solution/emailtemplate/template/category/',
+        GetEmailTemplateList: '/solution/emailtemplate/category/',
         CreateTemplate: '/solution/emailtemplate/template/create',
         UpdateDeleteTemplate: '/solution/emailtemplate/template/',
         CheckDuplicateForUpdate1: '/solution/emailtemplate/template/',
         CheckDuplicateForUpdate2: '/checkDuplicateForUpdate',
         checkDuplicateCreate: '/checkDuplicate',
-        templateParameters: '/solution/emailtemplate/template/templateParameters/category/'
+        templateParameters: '/solution/emailtemplate/templateParameters/category/'
     }
 };
 class RBACINFO {
