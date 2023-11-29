@@ -60,9 +60,9 @@
             getList: '/intakedastagings/listtemplates',
             GetAllEmailTemplateCategories: '/solution/emailtemplate/getAllEmailTemplateCategories',
             GetEmailTemplateList: '/solution/emailtemplate/category/',
-            CreateTemplate: '/solution/emailtemplate/template/create',
-            UpdateDeleteTemplate: '/solution/emailtemplate/template/',
-            CheckDuplicateForUpdate1: '/solution/emailtemplate/template/',
+            CreateTemplate: '/solution/emailtemplate/create',
+            UpdateDeleteTemplate: '/solution/emailtemplate/',
+            CheckDuplicateForUpdate1: '/solution/emailtemplate/',
             CheckDuplicateForUpdate2: '/checkDuplicateForUpdate',
             checkDuplicateCreate: '/checkDuplicate',
             templateParameters: '/solution/emailtemplate/templateParameters/category/'
